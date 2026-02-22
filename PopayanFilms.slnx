@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Bootstrapper/">
+    <Project Path="src/Bootstrapper/PopayanFilms.Api/PopayanFilms.Api.csproj" />
+  </Folder>
+  <Folder Name="/Common/">
+    <Project Path="src/Common/PopayanFilms.Common.Application/PopayanFilms.Common.Application.csproj" />
+    <Project Path="src/Common/PopayanFilms.Common.Domain/PopayanFilms.Common.Domain.csproj" />
+    <Project Path="src/Common/PopayanFilms.Common.Infrastructure/PopayanFilms.Common.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Modules/" />
+  <Folder Name="/Modules/Movies/">
+    <Project Path="src/Modules/Movies/PopayanFilms.Modules.Movies.Api/PopayanFilms.Modules.Movies.Api.csproj" />
+    <Project Path="src/Modules/Movies/PopayanFilms.Modules.Movies.Application/PopayanFilms.Modules.Movies.Application.csproj" />
+    <Project Path="src/Modules/Movies/PopayanFilms.Modules.Movies.Domain/PopayanFilms.Modules.Movies.Domain.csproj" />
+    <Project Path="src/Modules/Movies/PopayanFilms.Modules.Movies.Infrastructure/PopayanFilms.Modules.Movies.Infrastructure.csproj" />
+  </Folder>
+</Solution>

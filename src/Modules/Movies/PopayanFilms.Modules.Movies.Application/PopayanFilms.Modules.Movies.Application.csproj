@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\PopayanFilms.Common.Application\PopayanFilms.Common.Application.csproj" />
+    <ProjectReference Include="..\PopayanFilms.Modules.Movies.Domain\PopayanFilms.Modules.Movies.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
